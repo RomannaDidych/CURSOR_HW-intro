@@ -1,0 +1,17 @@
+.main {
+	width: 800px;
+	margin: 0 auto;
+	background-color: lightyellow;
+}
+.title {
+	font-size: 26px;
+	text-align: center;
+}
+.list {}
+.list__item {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.list__span {
+	font-weight: 700;
+}

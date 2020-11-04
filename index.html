@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="style.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>git notes</title>
 </head>
 <body>
+	<section class="main">
+		<h1 class="title">Команди GIT</h1>
+		<ul class="list">			
+			<li class="list__item">
+				<span class="list__span">git config</span> --global user.name blabla - встановлює ім'я, яке буде віджображатися в полі автора у виконуваних коммітів 
+			</li>
+			<li class="list__item">
+				<span class="list__span">git config</span> --global user.email blabal@bla - встановлює адресу ел.пошти, яка буде віджображатися в полі автора у виконуваних коммітів
+			</li>
+			<li class="list__item">
+				<span class="list__span">git init</span> [назва проекту] - створює новий репозиторій із вказаним ім'ям
+			</li>
+			<li class="list__item">
+				<span class="list__span">git status</span> - вказує всі нові або змвнені файли, які потрібно зафіксувати
+			</li>
+			<li class="list__item">
+				<span class="list__span">git add</span> [файл] - індексує вказаний файл для майбутнього комміту
+			</li>
+			<li class="list__item">
+				<span class="list__span">git commit</span> -m "[повідомлення з описом]" - фіксує проіндексовані зміни і зберігає їх в історію версій
+			</li>
+			<li class="list__item">
+				<span class="list__span">git log</span> - історія коммітів для поточної гілки
+			</li>
+			<li class="list__item">
+				<span class="list__span">git checkout</span> [ім'я гілки] - переключається на вказану гілку і відновлює робочу директорію до її стану
+			</li>
+			<li class="list__item">
+				<span class="list__span">git branch</span> [ім'я гілки] - створює нову гілку
+			</li>
+			<li class="list__item">
+				<span class="list__span">git push</span> [віддалений репозиторій] [гілка] - загружає всі зміни локальної гілки в віддалений репозиторій
+			</li>
+			<li class="list__item">
+				<span class="list__span">git pull</span> - Загружає історію з віддаленого репозиторію і об'єднує її з локальною. pull = fetch + merge
+			</li>
+			<li class="list__item">
+				<span class="list__span">git merge</span> [віддалений репозиторій]/[гілка] - Вносить зміни з гілки віддаленого репозиторію в поточну гілку локального репозиторію
+			</li>
+			<li class="list__item">
+				<span class="list__span">git clone</span> [url-адрес] - клонує (зкачує) репозиторій разом з усією його історією змін
+			</li>
+			<li class="list__item">
+				<span class="list__span">.gitignore</span> - файл, в якому перераховані всі файли і директорії (папки), які будуть ігноруватися git
+			</li>
+		</ul>
+	</section>
 	
 </body>
 </html>
+
+    
